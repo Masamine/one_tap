@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/**
+* ================================================================================
+*
+* base.css
+* version: 1.02
+* Author : KENTA SAKATA
+* Since  : 2010/01/06
+* Update : 2011/06/09
+*
+* ================================================================================
+*
+**/
+
+*, canvas {
+	margin:0;
+	padding:0;
+}
+
+html {
+	overflow-y:scroll;
+	word-break:break-all;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+
+ol, ul {
+	list-style:none;
+}
+
+blockquote, q {
+	quotes:none;
+}
+
+:focus {
+	outline:0;
+}
+
+ins {
+	text-decoration:none;
+}
+
+del {
+	text-decoration:line-through;
+}
+
+table {
+	
+}
+
+img {
+	border:0;
+	vertical-align:bottom;
+}
+
+address {
+	font-style:normal;
+}
+
+/*-------------------------------------------------------------------------
+	SET UP
+/*-----------------------------------------------------------------------*/
+body {
+	background:#fff;
+	color:#333;
+	font-size:24px;
+	font-family:'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+	letter-spacing:4px;
+}
+
+p, li, dt, dl {
+	line-height:1.6;
+}
+
+strong {
+	font-weight:bold;
+}
+
+em {
+	font-style:normal;
+}
+
+/*-------------------------------------------------------------------------
+	ANCHOR
+/*-----------------------------------------------------------------------*/
+a:link {
+	color:#195156;
+	text-decoration:none;
+}
+
+a:visited {
+	color:#195156;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#549da4;
+	text-decoration:none;
+}
+
+/*-------------------------------------------------------------------------
+	SOMETIMES_USED
+/*-----------------------------------------------------------------------*/
+div,ul,dl,article,section {
+	zoom:1;
+}
+	
+	div:after,
+	ul:after,
+	dl:after,
+	article:after,
+	section:after {
+		content:"";
+		display: block;
+		clear:both;
+		visibility:hidden;
+	}
